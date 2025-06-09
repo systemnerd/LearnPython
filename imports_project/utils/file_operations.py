@@ -5,3 +5,5 @@ def save_to_file(content, file_name):
 def read_file(file_name):
     with open(file_name, "r") as file:
         return file.read()
+
+print(__name__)
