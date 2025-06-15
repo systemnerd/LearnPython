@@ -1,0 +1,6 @@
+2025-06-14 21:43:50,058:This is an INFO message
+2025-06-14 21:43:50,058:Warning message
+2025-06-14 21:43:50,058:Another message
+2025-06-14 21:45:18,713:This is an INFO message
+2025-06-14 21:45:18,713:Warning message
+2025-06-14 21:45:18,713:Another message
