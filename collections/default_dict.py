@@ -20,3 +20,15 @@ for worker, place in coworkers:
 print(alma_matters)
 print(alma_matters["rolf"])
 print(alma_matters["sample"])
+
+my_company = "sample_company"
+coworkers = ['Jen', 'Li', 'Charlie', 'Rhys']
+other_coworkers = [('rolf', 'apple'), ('anna', 'google')]
+
+coworker_companies = defaultdict(lambda: my_company)
+
+for person, company in other_coworkers:
+    coworker_companies[person] = company
+
+print(coworker_companies[coworkers[0]])
+print(coworker_companies['rolf'])
